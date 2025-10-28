@@ -91,6 +91,7 @@ You will receive an individual API Key for class assignments. To prevent acciden
 ## Troubleshooting
 - The Jupyter extension should install automatically. If you still cannot select a Python kernel on Jupyter Notebook: Go to the left sidebar >> **Extensions** >> search for **Jupyter** >> reload window (or reinstall it).   
 
+## How To Run
 Add the api key in devcontainer.json and then Run (streamlit run chat_with_pdf.py) in terminal
 
 It is a simple chatbot where you can upload multiple txt and pdf documents and ask questions about it. If the information is not available however the chatbot will say I don't know. I did this so the chatbot's answers are more reliable and so it does not hallucinate answers
